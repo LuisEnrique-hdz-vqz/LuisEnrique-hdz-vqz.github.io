@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #f71f5f;
+    line-height: 1.6;
+}
+
+.fondo {
+    width: 30px; 
+    height: 150px; 
+   
+}
+
+header {
+    background-color: #f71f5f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+#portfolio .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.artwork {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.image-container {
+    width: 30px; 
+    height: 30px; 
+   
+}
+
+.pagina {
+    background-color: #f71f5f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.artwork img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.artwork p {
+    margin-top: 10px;
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color:#f71f5f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
